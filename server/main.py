@@ -2,11 +2,9 @@ from flask import Flask, request, jsonify
 from pprint import pprint
 import json
 import re
-from gen import create_comment
+# from gen import create_comment
 
-import os
 import pandas as pd
-import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
 

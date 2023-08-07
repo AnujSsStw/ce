@@ -26,6 +26,8 @@ This is a simple Chrome extension that enhances your LinkedIn feed by filtering 
 
 ## Usage
 
+You can check the image for better understanding of the extension in static folder.
+
 1. Log in to your LinkedIn account in Google Chrome.
 2. Open your LinkedIn feed by going to `https://www.linkedin.com/feed/`.
 3. The extension will automatically filter AI-related posts and it can viewed in little pop of extension and suggest three comments for each post.
