@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "version": "0.1",
+  "name": "with_BE_ai",
+  "description": "To filter out the ai posts from linkedin",
+  "action": {
+    "default_title": "with_BE",
+    "default_popup": "./popup.html"
+  },
+  "permissions": [
+    "webRequest",
+    "identity",
+    "tabs",
+    "geolocation",
+    "storage",
+    "cookies"
+  ],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.linkedin.com/*"],
+      "js": ["content.js"]
+    },
+    {
+      "matches": ["*://www.linkedin.com/feed/update/*"],
+      "js": ["content2.js"]
+    }
+  ]
+}

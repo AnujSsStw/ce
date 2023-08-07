@@ -1,0 +1,3 @@
+server/mo/*
+!server/mo/yourmodelgoeshere
+server/__pycache__
