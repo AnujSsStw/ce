@@ -17,7 +17,7 @@ This is a simple Chrome extension that enhances your LinkedIn feed by filtering 
 ## Installation
 
 1. Clone or download this repository to your local machine.
-2. Download the model using the provided ipynb notebook and save it on server/mo dict.
+2. Download the model using the provided ipynb notebook and save it on server/mo dict or use this <a src="https://colab.research.google.com/drive/1TKaX5MH4ef821m4-Jn43imnY9WJMilFV?usp=sharing">Colab</a> to download.
 3. Uncomment some code in server/main.py to use openai api for comment generation.
 4. Run the server using `flask --app server/main.py run`
 5. Open Google Chrome and go to `chrome://extensions/` (or select "Extensions" from the menu under "More Tools").
